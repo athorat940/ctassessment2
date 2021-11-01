@@ -13,7 +13,7 @@ spec:
         app: my-python-app
     spec:
       containers:
-      - name: mypythonapp
+      - name: my-python-app
         image: aksdevopsacr6.azurecr.io/aksdevopsacr6/my-python-app:latest
         imagePullPolicy: Always
         ports:
